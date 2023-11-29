@@ -29,6 +29,9 @@ mapkey("<C-l>", "TmuxNavigateRight", "n") -- Navigate Right
 mapkey("<leader>sv", "vsplit", "n") -- Split Vertically
 mapkey("<leader>sh", "split", "n") -- Split Horizontally
 
+-- Zenmode
+mapkey("<leader>z", "ZenMode", "n")
+
 -- Indenting
 mapkey("<", "v", "<gv") -- Shift Indentation to Left
 mapkey(">", "v", ">gv") -- Shift Indentation to Right
