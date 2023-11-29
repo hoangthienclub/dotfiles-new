@@ -41,5 +41,6 @@ return {
 		mapkey("<leader>ff", "Telescope find_files", "n"),
 		mapkey("<leader>fg", "Telescope live_grep", "n"),
 		mapkey("<leader>fb", "Telescope buffers", "n"),
+		mapkey("<leader>fs", "Telescope current_buffer_fuzzy_find", "n"),
 	},
 }
