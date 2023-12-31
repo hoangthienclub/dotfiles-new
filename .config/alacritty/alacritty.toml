@@ -1,0 +1,56 @@
+import = ["/Users/thientran/.config/alacritty/catppuccin-mocha.toml"]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[font]
+size = 13
+
+[font.bold]
+family = "MesloLGS NF"
+style = "Bold"
+
+[font.bold_italic]
+family = "MesloLGS NF"
+style = "Bold Italic"
+
+[font.italic]
+family = "MesloLGS NF"
+style = "Italic"
+
+[font.normal]
+family = "MesloLGS NF"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 10
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+args = ["new-session", "-A", "-D", "-s", "main"]
+program = "/usr/local/bin/tmux"
+
+[window]
+decorations = "buttonless"
+opacity = 1
+startup_mode = "Maximized"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 10
+y = 10
